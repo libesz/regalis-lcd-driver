@@ -19,8 +19,9 @@
 
 #ifndef __REGALIS_LCD_
 #define __REGALIS_LCD_
+
 #include <inttypes.h>
-#include "regalis_lcd_config.h"
+#include "../../regalis_lcd_config.h"
 
 #if REGALIS_LCD_LINES == 1
 	#define RL_LINE_ADDR_0 0x00

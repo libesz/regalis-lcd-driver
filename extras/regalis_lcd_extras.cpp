@@ -21,8 +21,8 @@
 
 #include <util/delay.h>
 
-#include "regalis_lcd.h"
-#include "regalis_lcd_config.h"
+#include "../lib/regalis_lcd.h"
+#include "../../regalis_lcd_config.h"
 #include "regalis_lcd_extras.h"
 
 uint8_t regalis_center(uint8_t length) {

@@ -195,7 +195,7 @@ static void regalis_lcd_exec(uint8_t command) {
 	regalis_lcd_enable();
 }
 
-inline void regalis_lcd_clear() {
+void regalis_lcd_clear() {
 	regalis_lcd_instruction(RL_CLEAR_DISPLAY);
 }
 
@@ -208,7 +208,7 @@ void regalis_lcd_clear_line(uint8_t line_no) {
 	regalis_lcd_goto(0, line_no);
 }
 
-inline void regalis_lcd_home() {
+void regalis_lcd_home() {
 	regalis_lcd_instruction(RL_RETURN_HOME);
 }
 
